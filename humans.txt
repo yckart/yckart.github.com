@@ -1,0 +1,26 @@
+/* TEAM */
+    UI Development: Yannick Albert
+    From: Kiel, Germany
+    Twitter: @yckart
+    Site: http://yckart.com
+
+
+
+/* THANKS */
+    Name or URL
+
+
+
+/* SITE */
+    Name: 
+    URL: http://yckart.github.com
+    Language: English/German
+    Updated: 2012/07/15
+
+    Standards: HTML5, CSS3, JS & PHP5 # Responsive Design
+    Libraries: jQuery
+    Components:
+    IDE: WinSCP, Scriptly, Adobe Photoshop CS5
+
+    Analytics & Tracking: n/a
+    CMS: n/a
