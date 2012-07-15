@@ -27,7 +27,6 @@ a:hover,a:focus {color:#000}
 
 #top a.logo{display:block; width:32px; height:32px; float:left; margin:0 5px}
 
-#top nav{float:left}
 #top nav select{display:none; margin-top:6px}
 #top .nav                        {list-style:none; margin:0 5px; float:left}
 #top .nav li                     {display:inline}
@@ -39,7 +38,7 @@ a:hover,a:focus {color:#000}
 /***** top: *****/
 
 /***** :content *****/
-#content .entry{padding:64px 0}
+#content .entry{padding-top:64px}
 #content .goto {float:right}
 #content .goto span {
     display:inline-block;
@@ -61,16 +60,17 @@ a:hover,a:focus {color:#000}
 /***** :media queries *****/
 @media only screen and (max-width: 480px) {
     /* wide mobile (480px+) styles go here */
+    #top nav ul {display:none}
+    #top nav select {display:inline-block}
 }
 
 @media only screen and (max-width: 768px) {
     /* tablets/netbooks (768px+) styles go here */
+    #top .right {display:none}
 }
 
 @media only screen and (max-width: 1024px) {
     /* desktops (1024px+) styles go here */
-    nav ul {display:none}
-    nav select {display:inline-block}
 }
 /***** media queries: *****/
 
