@@ -34,8 +34,8 @@ $(function() {
     $("nav select").change(function() {
         var $this = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($this.find("option:selected").val()).position().top - 64 // top bar padding
-        }, 600, 'swing', function() {
+            scrollTop: $($this.find("option:selected").val()).position().top
+        }, 400, 'swing', function() {
             $($this.find("option:selected").val()).fadeTo(100, 0.33).delay(100).fadeTo(100, 1);
         });
     });
@@ -44,7 +44,7 @@ $(function() {
     $('a[href*=#]').bind('click', function(e) {
         var $this = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($this.attr('href')).position().top - 64 // top bar padding
+            scrollTop: $($this.attr('href')).position().top
         }, 600, 'swing', function() {
             $($this.attr('href')).fadeTo(100, 0.33).delay(100).fadeTo(100, 1);
         });
